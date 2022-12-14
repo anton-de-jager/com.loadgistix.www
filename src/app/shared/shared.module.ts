@@ -40,6 +40,7 @@ import { MatRippleModule } from '@angular/material/core';
 import { NgApexchartsModule } from 'ng-apexcharts';
 import { TranslocoModule } from '@ngneat/transloco';
 import { ApiService } from './api.service';
+import { WebcamModule } from 'ngx-webcam';
 
 @NgModule({
     imports: [
@@ -84,7 +85,8 @@ import { ApiService } from './api.service';
         MatRippleModule,
         TranslocoModule,
 
-        NgApexchartsModule
+        NgApexchartsModule,
+        WebcamModule
     ],
     exports: [
         CommonModule,
@@ -128,7 +130,8 @@ import { ApiService } from './api.service';
         MatRippleModule,
         TranslocoModule,
 
-        NgApexchartsModule
+        NgApexchartsModule,
+        WebcamModule
     ],
     declarations: [
     ],
